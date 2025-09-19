@@ -1,0 +1,71 @@
+/* Simple styles for Venomics ML Predictor */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+textarea {
+    font-family: monospace;
+    font-size: 0.9rem;
+}
+
+.confidence-bar {
+    height: 20px;
+    background-color: #e9ecef;
+    border-radius: 10px;
+}
+
+.confidence-fill {
+    height: 100%;
+    transition: width 0.3s ease;
+}
+
+.go-term {
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.sequence-display {
+    font-family: monospace;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+    word-break: break-all;
+}
+
+.loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.function-info {
+    max-width: 100%;
+}
+
+.go-term-header {
+    margin-bottom: 5px;
+}
+
+.go-term {
+    font-family: monospace;
+    font-weight: bold;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.function-name {
+    font-weight: 600;
+    color: #495057;
+}
+
+.function-definition {
+    display: block;
+    line-height: 1.4;
+    margin-top: 3px;
+    font-size: 0.85rem;
+}

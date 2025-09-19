@@ -1,0 +1,432 @@
+{
+  "GO:0000166": {
+    "name": "nucleotide binding",
+    "namespace": "molecular_function",
+    "definition": "Binding to a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose."
+  },
+  "GO:0000287": {
+    "name": "magnesium ion binding",
+    "namespace": "molecular_function",
+    "definition": "Interacting selectively and non-covalently with a magnesium (Mg) ion."
+  },
+  "GO:0001515": {
+    "name": "opioid peptide activity",
+    "namespace": "molecular_function",
+    "definition": "Naturally occurring peptide that is an opioid (any non-alkaloid having an opiate-like effect that can be reversed by naloxone or other recognized morphine antagonist). These include Leu- and Met-enkephalin, dynorphin and neoendorphin, alpha, beta, gamma and delta endorphins formed from beta-lipotropin, various pronase-resistant peptides such as beta casomorphin, and other peptides whose opiate-like action seems to be indirect."
+  },
+  "GO:0001716": {
+    "name": "L-amino-acid oxidase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the reaction: an L-alpha-amino acid + H₂O + O₂ → a 2-oxocarboxylate + H₂O₂ + NH₄⁺."
+  },
+  "GO:0003676": {
+    "name": "nucleic acid binding",
+    "namespace": "molecular_function",
+    "definition": "Interacting selectively and non-covalently with any nucleic acid."
+  },
+  "GO:0003677": {
+    "name": "DNA binding",
+    "namespace": "molecular_function",
+    "definition": "Any molecular function by which a gene product interacts selectively and non-covalently with DNA (deoxyribonucleic acid)."
+  },
+  "GO:0003990": {
+    "name": "acireductone dioxygenase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the reaction: acireductone + O₂ = 4-thiobutyrate + CO + H₂O + H⁺."
+  },
+  "GO:0003993": {
+    "name": "enolase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the reaction converting 2-phospho-D-glycerate to phosphoenolpyruvate + H₂O."
+  },
+  "GO:0004175": {
+    "name": "endopeptidase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the hydrolysis of internal, alpha-peptide bonds in a polypeptide chain."
+  },
+  "GO:0004177": {
+    "name": "aminopeptidase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the hydrolysis of a single N-terminal amino acid residue from a polypeptide chain."
+  },
+  "GO:0004415": {
+    "name": "hyalurononglucosaminidase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the random hydrolysis of (1→4) linkages between N-acetyl-beta-D-glucosamine and D-glucuronate residues in hyaluronate."
+  },
+  "GO:0004465": {
+    "name": "lipoprotein lipase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the reaction: triacylglycerol + H₂O → diacylglycerol + a carboxylate, where the triacylglycerol is part of a lipoprotein. May also hydrolyze diacylglycerol and phospholipids present in lipoproteins."
+  },
+  "GO:0004556": {
+    "name": "alpha-amylase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the endohydrolysis of (1→4)-alpha-D-glucosidic linkages in polysaccharides containing three or more alpha-(1→4)-linked D-glucose units."
+  },
+  "GO:0004623": {
+    "name": "phospholipase A2 activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the reaction: a 1,2-diacyl-sn-glycero-3-phospholipid + H₂O → 1-acyl-sn-glycero-3-phospholipid + a fatty acid. This reaction removes the fatty acid attached to the sn-2 position. Substrates include phosphatidylcholine, phosphatidylethanolamine, choline plasmalogen and phosphatides."
+  },
+  "GO:0004860": {
+    "name": "protein kinase inhibitor activity",
+    "namespace": "molecular_function",
+    "definition": "Binds to and stops, prevents or reduces the activity of a protein kinase."
+  },
+  "GO:0004866": {
+    "name": "endopeptidase inhibitor activity",
+    "namespace": "molecular_function",
+    "definition": "Binds to and stops, prevents or reduces the activity of an endopeptidase, any enzyme that hydrolyzes nonterminal peptide bonds in polypeptides."
+  },
+  "GO:0004867": {
+    "name": "serine-type endopeptidase inhibitor activity",
+    "namespace": "molecular_function",
+    "definition": "Binds to and stops, prevents or reduces the activity of a serine-type endopeptidase. Serine-type endopeptidases are enzymes that catalyze the hydrolysis of nonterminal peptide bonds in a polypeptide chain; a serine residue (and usually a histidine residue) are at the active center of the enzyme."
+  },
+  "GO:0004869": {
+    "name": "cysteine-type endopeptidase inhibitor activity",
+    "namespace": "molecular_function",
+    "definition": "Binds to and stops, prevents or reduces the activity of a cysteine-type endopeptidase, any enzyme that hydrolyzes peptide bonds in polypeptides by a mechanism in which the sulfhydryl group of a cysteine residue at the active center acts as a nucleophile."
+  },
+  "GO:0005102": {
+    "name": "signaling receptor binding",
+    "namespace": "molecular_function",
+    "definition": "Binding to one or more specific sites on a receptor molecule, a macromolecule that undergoes combination with a hormone, neurotransmitter, drug or intracellular messenger to initiate a change in cell function."
+  },
+  "GO:0005154": {
+    "name": "epidermal growth factor receptor binding",
+    "namespace": "molecular_function",
+    "definition": "Binding to an epidermal growth factor receptor."
+  },
+  "GO:0005179": {
+    "name": "hormone activity",
+    "namespace": "molecular_function",
+    "definition": "The action characteristic of a hormone, any substance formed in very small amounts in one specialized organ or group of cells and carried (sometimes in the bloodstream) to another organ or group of cells in the same organism, upon which it has a specific regulatory action. The term was originally applied to agents with a stimulatory physiological action in vertebrate animals (as opposed to a chalone, which has a depressant action). Usage is now extended to regulatory compounds in lower animals and plants, and to synthetic substances having comparable effects; all bind receptors and trigger some biological process."
+  },
+  "GO:0005184": {
+    "name": "neuropeptide hormone activity",
+    "namespace": "molecular_function",
+    "definition": "The action characteristic of a neuropeptide hormone, any peptide hormone that acts in the central nervous system. A neuropeptide is any of several types of molecules found in brain tissue, composed of short chains of amino acids; they include endorphins, enkephalins, vasopressin, and others."
+  },
+  "GO:0005185": {
+    "name": "neurohypophyseal hormone activity",
+    "namespace": "molecular_function",
+    "definition": "The action characteristic of a neurohypophyseal hormone, any of a family of structurally and functionally related nonapeptides that are synthesized as part of a larger precursor molecule comprising a signal peptide, the nonapeptide hormone, and a neurophysin."
+  },
+  "GO:0005216": {
+    "name": "monoatomic ion channel activity",
+    "namespace": "molecular_function",
+    "definition": "Enables the facilitated diffusion of a monoatomic ion (by an energy-independent process) by passage through a transmembrane aqueous pore or channel without evidence for a carrier-mediated mechanism. May be either selective (it enables passage of a specific ion only) or non-selective (it enables passage of two or more ions of same charge but different size)."
+  },
+  "GO:0005507": {
+    "name": "copper ion binding",
+    "namespace": "molecular_function",
+    "definition": "Interacting selectively and non-covalently with a copper (Cu) ion."
+  },
+  "GO:0005509": {
+    "name": "calcium ion binding",
+    "namespace": "molecular_function",
+    "definition": "Interacting selectively and non-covalently with calcium ions (Ca²⁺)."
+  },
+  "GO:0005516": {
+    "name": "calmodulin binding",
+    "namespace": "molecular_function",
+    "definition": "Binding to calmodulin, a calcium-binding protein with many roles, both in the calcium-bound and calcium-free states."
+  },
+  "GO:0005520": {
+    "name": "insulin-like growth factor binding",
+    "namespace": "molecular_function",
+    "definition": "Binding to an insulin-like growth factor, any member of a group of polypeptides that are structurally homologous to insulin and share many of its biological activities, but are immunologically distinct from it."
+  },
+  "GO:0005534": {
+    "name": "galactose binding",
+    "namespace": "molecular_function",
+    "definition": "Binding to aldohexose galactose (galacto-hexose), a common constituent of many oligo- and polysaccharides."
+  },
+  "GO:0008061": {
+    "name": "chitin binding",
+    "namespace": "molecular_function",
+    "definition": "Binding to chitin, a linear polysaccharide consisting of beta-(1→4)-linked N-acetyl-D-glucosamine residues."
+  },
+  "GO:0008081": {
+    "name": "phosphoric diester hydrolase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the hydrolysis of a phosphodiester to give a phosphomonoester and a free hydroxyl group."
+  },
+  "GO:0008083": {
+    "name": "growth factor activity",
+    "namespace": "molecular_function",
+    "definition": "The function that stimulates a cell to grow or proliferate. Most growth factors have other actions besides the induction of cell growth or proliferation."
+  },
+  "GO:0008200": {
+    "name": "heparin binding",
+    "namespace": "molecular_function",
+    "definition": "Interacting selectively and non-covalently with heparin."
+  },
+  "GO:0008201": {
+    "name": "heparin binding",
+    "namespace": "molecular_function",
+    "definition": "Binding to heparin, a member of a group of glycosaminoglycans found mainly as an intracellular component of mast cells and which consist predominantly of alternating alpha-(1→4)-linked D-galactose and N-acetyl-D-glucosamine-6-sulfate residues."
+  },
+  "GO:0008233": {
+    "name": "peptidase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the hydrolysis of a peptide bond. A peptide bond is a covalent bond formed when the carbon atom from the carboxyl group of one amino acid shares electrons with the nitrogen atom from the amino group of a second amino acid."
+  },
+  "GO:0008236": {
+    "name": "serine-type peptidase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the hydrolysis of peptide bonds in a polypeptide chain by a catalytic mechanism that involves a catalytic triad consisting of a serine nucleophile that is activated by a proton relay involving an acidic residue (e.g. aspartate or glutamate) and a basic residue (usually histidine)."
+  },
+  "GO:0008237": {
+    "name": "metallopeptidase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the hydrolysis of peptide bonds by a mechanism in which water acts as a nucleophile, one or two metal ions hold the water molecule in place, and charged amino acid side chains are ligands for the metal ions."
+  },
+  "GO:0008239": {
+    "name": "dipeptidyl-peptidase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the hydrolysis of N-terminal dipeptides from a polypeptide chain."
+  },
+  "GO:0008270": {
+    "name": "zinc ion binding",
+    "namespace": "molecular_function",
+    "definition": "Binding to a zinc ion (Zn)."
+  },
+  "GO:0008289": {
+    "name": "lipid binding",
+    "namespace": "molecular_function",
+    "definition": "Interacting selectively and non-covalently with a lipid."
+  },
+  "GO:0008970": {
+    "name": "phospholipase A1 activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the reaction: a 1,2-diacyl-sn-glycero-3-phosphocholine + H₂O → a 2-acyl-sn-glycero-3-phosphocholine + a fatty acid + H⁺. Also known as phosphatidylcholine 1-acylhydrolase activity or phosphatidylserine 1-acylhydrolase activity."
+  },
+  "GO:0016491": {
+    "name": "oxidoreductase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of an oxidation-reduction (redox) reaction, a reversible chemical reaction in which the oxidation state of an atom or atoms within a molecule is altered. One substrate acts as a hydrogen or electron donor and becomes oxidized, while the other acts as hydrogen or electron acceptor and becomes reduced."
+  },
+  "GO:0016504": {
+    "name": "peptidase activator activity",
+    "namespace": "molecular_function",
+    "definition": "Binds to and increases the activity of a peptidase."
+  },
+  "GO:0016603": {
+    "name": "glutaminyl-peptide cyclotransferase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the reaction: N-terminal L-glutaminyl-[peptide] = N-terminal 5-oxo-L-prolyl-[peptide] + NH₄⁺."
+  },
+  "GO:0016787": {
+    "name": "hydrolase activity, acting on ester bonds",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the hydrolysis of ester bonds. (This is a broader class that includes many specific ester-acting hydrolases.)"
+  },
+  "GO:0016829": {
+    "name": "lyase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring."
+  },
+  "GO:0016853": {
+    "name": "isomerase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the geometric or structural changes within one molecule. Isomerase activity includes racemases, epimerases, cis-trans isomerases, intramolecular oxidoreductases, intramolecular transferases, and intramolecular lyases."
+  },
+  "GO:0017080": {
+    "name": "sodium channel regulator activity",
+    "namespace": "molecular_function",
+    "definition": "Binds to and modulates the activity of a sodium channel."
+  },
+  "GO:0017081": {
+    "name": "chloride channel regulator activity",
+    "namespace": "molecular_function",
+    "definition": "Binds to and modulates the activity of a chloride channel."
+  },
+  "GO:0019834": {
+    "name": "phospholipase A2 inhibitor activity",
+    "namespace": "molecular_function",
+    "definition": "Binds to and stops, prevents or reduces the activity of phospholipase A2."
+  },
+  "GO:0019855": {
+    "name": "calcium channel inhibitor activity",
+    "namespace": "molecular_function",
+    "definition": "Binds to and stops, prevents, or reduces the activity of a calcium channel."
+  },
+  "GO:0019870": {
+    "name": "potassium channel inhibitor activity",
+    "namespace": "molecular_function",
+    "definition": "Binds to and stops, prevents, or reduces the activity of a potassium channel."
+  },
+  "GO:0019871": {
+    "name": "sodium channel inhibitor activity",
+    "namespace": "molecular_function",
+    "definition": "Binds to and stops, prevents, or reduces the activity of a sodium channel."
+  },
+  "GO:0030395": {
+    "name": "lactose binding",
+    "namespace": "molecular_function",
+    "definition": "Binding to lactose, a disaccharide of glucose and galactose, the carbohydrate of milk."
+  },
+  "GO:0030550": {
+    "name": "acetylcholine receptor inhibitor activity",
+    "namespace": "molecular_function",
+    "definition": "Binds to and stops, prevents or reduces the activity of an acetylcholine receptor."
+  },
+  "GO:0042802": {
+    "name": "identical protein binding",
+    "namespace": "molecular_function",
+    "definition": "Binding to an identical protein or proteins."
+  },
+  "GO:0042803": {
+    "name": "protein homodimerization activity",
+    "namespace": "molecular_function",
+    "definition": "Interacting selectively and non-covalently with an identical protein to form a homodimer."
+  },
+  "GO:0044325": {
+    "name": "transmembrane transporter binding",
+    "namespace": "molecular_function",
+    "definition": "Binding to a transmembrane transporter, a protein or protein complex that enables the transfer of a substance, usually a specific substance or a group of related substances, from one side of a membrane to the other."
+  },
+  "GO:0047498": {
+    "name": "calcium-dependent phospholipase A2 activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the reaction: phosphatidylcholine + H₂O = 1-acylglycerophosphocholine + a carboxylate. This reaction requires Ca²⁺."
+  },
+  "GO:0048018": {
+    "name": "receptor ligand activity",
+    "namespace": "molecular_function",
+    "definition": "The activity of a gene product that interacts with a receptor to effect a change in the activity of the receptor. Ligands may be produced by the same cell that expresses the receptor. Ligands may also be expressed at the plasma membrane of an adjacent cell or be secreted and diffuse extracellularly from their point of origin to the receiving cell."
+  },
+  "GO:0050660": {
+    "name": "flavin adenine dinucleotide binding",
+    "namespace": "molecular_function",
+    "definition": "Binding to FAD, flavin-adenine dinucleotide, the coenzyme or the prosthetic group of various flavoprotein oxidoreductase enzymes, in either the oxidized form, FAD, or the reduced form, FADH₂."
+  },
+  "GO:0052739": {
+    "name": "phosphatidylserine 1-acylhydrolase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of hydrolysis of an acyl group from phosphatidylserine resulting in lysophosphatidylserine and a free fatty acid."
+  },
+  "GO:0060422": {
+    "name": "peptidyl-dipeptidase inhibitor activity",
+    "namespace": "molecular_function",
+    "definition": "Binds to and stops, prevents, or reduces the activity of a peptidyl-dipeptidase."
+  },
+  "GO:0070320": {
+    "name": "inward rectifier potassium channel inhibitor activity",
+    "namespace": "molecular_function",
+    "definition": "Binds to and stops, prevents, or reduces the activity of an inwardly rectifying potassium channel."
+  },
+  "GO:0080030": {
+    "name": "methyl indole-3-acetate esterase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the reaction: methyl indole-3-acetate + H₂O → indole-3-acetate + methanol + H⁺."
+  },
+  "GO:0090729": {
+    "name": "toxin activity",
+    "namespace": "molecular_function",
+    "definition": "Interacting selectively with one or more biological molecules in another (target) organism, initiating pathogenesis (leading to an abnormal, generally detrimental state) in the target organism. The activity should refer to an evolved function of the active gene product, i.e. one that was selected for. Examples include the activity of botulinum toxin, and snake venom."
+  },
+  "GO:0099106": {
+    "name": "ion channel regulator activity",
+    "namespace": "molecular_function",
+    "definition": "Modulates the activity of a channel via direct interaction with it. A channel catalyzes energy-independent facilitated diffusion, mediated by passage of a solute through a transmembrane aqueous pore or channel."
+  },
+  "GO:0106329": {
+    "name": "L-phenylalanine oxidase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the reaction: H₂O + L-phenylalanine + O₂ → 3-phenylpyruvate + H₂O₂ + NH₄⁺."
+  },
+  "GO:0140628": {
+    "name": "outward rectifier potassium channel inhibitor activity",
+    "namespace": "molecular_function",
+    "definition": "Binds to and stops, prevents, or reduces the activity of an outwardly rectifying potassium channel."
+  },
+  "GO:0046872": {
+    "name": "metal ion binding",
+    "namespace": "molecular_function",
+    "definition": "Interacting selectively and non-covalently with any metal ion."
+  },
+  "GO:0015459": {
+    "name": "potassium channel activity",
+    "namespace": "molecular_function",
+    "definition": "Enables the selective, facilitated diffusion of potassium ions (K+) by passage through a transmembrane aqueous pore or channel."
+  },
+  "GO:0004252": {
+    "name": "serine-type endopeptidase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the hydrolysis of internal, alpha-peptide bonds in a polypeptide chain by a catalytic mechanism that involves a catalytic triad consisting of a serine nucleophile."
+  },
+  "GO:0005246": {
+    "name": "calcium channel activity",
+    "namespace": "molecular_function",
+    "definition": "Enables the selective, facilitated diffusion of calcium ions (Ca2+) by passage through a transmembrane aqueous pore or channel."
+  },
+  "GO:0004222": {
+    "name": "metalloendopeptidase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the hydrolysis of internal, alpha-peptide bonds in a polypeptide chain by a mechanism in which water acts as a nucleophile."
+  },
+  "GO:0052740": {
+    "name": "1-acyl-sn-glycero-3-phosphocholine hydrolase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the hydrolysis of 1-acyl-sn-glycero-3-phosphocholine to form sn-glycero-3-phosphocholine and a fatty acid."
+  },
+  "GO:0050025": {
+    "name": "citrate dehydratase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the reaction: citrate = isocitrate + H2O."
+  },
+  "GO:0050029": {
+    "name": "L-serine dehydratase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the reaction: L-serine = pyruvate + NH3 + H2O."
+  },
+  "GO:0008191": {
+    "name": "metalloendopeptidase inhibitor activity",
+    "namespace": "molecular_function",
+    "definition": "Binds to and stops, prevents or reduces the activity of metalloendopeptidases."
+  },
+  "GO:0004620": {
+    "name": "phospholipase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the hydrolysis of a glycerophospholipid."
+  },
+  "GO:0106411": {
+    "name": "L-amino-acid oxidase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the oxidation of L-amino acids."
+  },
+  "GO:0030246": {
+    "name": "carbohydrate binding",
+    "namespace": "molecular_function",
+    "definition": "Interacting selectively and non-covalently with any carbohydrate."
+  },
+  "GO:0030414": {
+    "name": "peptidase inhibitor activity",
+    "namespace": "molecular_function",
+    "definition": "Binds to and stops, prevents or reduces the activity of a peptidase."
+  },
+  "GO:0033296": {
+    "name": "type 2 metabotropic glutamate receptor binding",
+    "namespace": "molecular_function",
+    "definition": "Interacting selectively and non-covalently with a type 2 metabotropic glutamate receptor."
+  },
+  "GO:0033906": {
+    "name": "hyaluronoglucuronidase activity",
+    "namespace": "molecular_function",
+    "definition": "Catalysis of the hydrolysis of hyaluronic acid."
+  },
+  "GO:0043262": {
+    "name": "hyaluronic acid binding",
+    "namespace": "molecular_function",
+    "definition": "Interacting selectively and non-covalently with hyaluronic acid."
+  },
+  "GO:0048019": {
+    "name": "receptor ligand activity",
+    "namespace": "molecular_function",
+    "definition": "The activity of a gene product that interacts with a receptor to effect a change in the activity of the receptor."
+  }
+}

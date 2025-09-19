@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-8 mx-auto">
+        <div class="text-center mb-4">
+            <h1>Venom Protein Machine Learning Predictor</h1>
+            <p>Enter a protein sequence to predict its molecular functions using machine learning.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <form id="prediction-form">
+                    <div class="mb-3">
+                        <label for="sequence" class="form-label">Protein Sequence</label>
+                        <textarea class="form-control" id="sequence" rows="6"
+                                  placeholder="Enter amino acid sequence (e.g., MVSRYVPDMGDLIWVDFDPTKGSEQ...)"
+                                  required></textarea>
+                        <div class="form-text">Use only standard amino acids (A-Y). Max 600 characters.</div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="top_n" class="form-label">Number of predictions</label>
+                            <select class="form-select" id="top_n">
+                                <option value="5">Top 5</option>
+                                <option value="10" selected>Top 10</option>
+                                <option value="all">All</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Predict Functions</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Example sequences -->
+        <div class="mt-3">
+            <h6>Example sequences:</h6>
+
+            <div class="mb-2">
+                <small class="text-success fw-bold">🧪 Toxin Proteins:</small><br>
+                <button class="btn btn-outline-success btn-sm me-2 mb-1 example-btn"
+                        data-sequence="MAFLKKSLFLVLFLGVVSLSFCEEEKREEHEEEKRDEEDAESLGKRYGGLSPLRISKRVPPGFTPFRSPARSISGLTPIRLSKRVPPGFTPFRSPARRISEADPGFTPSFVVIKGLSPLRGKRRPPGFSPFRVD">
+                    Toxin 1 (134 AA)
+                </button>
+                <button class="btn btn-outline-success btn-sm me-2 mb-1 example-btn"
+                        data-sequence="MTTSFYFLLVALGLLLYVCQSSFGNQHTRNSDTPKHRCGSELADQYVQLCHGKRNDAGKKRGRASPLWQRQGFLSMLKAKRNEAFFLQRDGRGIVEVCCDNPCTVATLRTFCH">
+                    Toxin 2 (113 AA)
+                </button>
+                <button class="btn btn-outline-success btn-sm me-2 mb-1 example-btn"
+                        data-sequence="MLKSFCILSVFMVLFLAKFPDLCSGEEISPLKIVVRNSEYLNNPCNGVTCPSGYRCSIVDKQCIKKEK">
+                    Toxin 3 (68 AA)
+                </button>
+            </div>
+
+            <div class="mb-2">
+                <small class="text-primary fw-bold">🔬 Non-Toxin Proteins:</small><br>
+                <button class="btn btn-outline-primary btn-sm me-2 mb-1 example-btn"
+                        data-sequence="MEIKYLLTVFLVLLIVSDHCQAFLFSLIPHAISGLISAFKGRRKRDLDGQIDRFRNFRKRDAELEELLSKLPIY">
+                    Non-Toxin 1 (74 AA)
+                </button>
+                <button class="btn btn-outline-primary btn-sm me-2 mb-1 example-btn"
+                        data-sequence="MRFQVYILHLCFFILVVLTYLSQGQSYTTTTTTSTTEQPTFLQKIHETFKKVKENAKIHNLYIFDPPTWIYTTTTEKPVESTENFDITNRQLITVPVRCPPNYDFIKGRCREKIP">
+                    Non-Toxin 2 (115 AA)
+                </button>
+                <button class="btn btn-outline-primary btn-sm me-2 mb-1 example-btn"
+                        data-sequence="MKFIIVLLLLTALTLTSIPVIEGILKRCKTYDDCKDVCKARKGKCEFGICKCMIKSGK">
+                    Non-Toxin 3 (58 AA)
+                </button>
+            </div>
+        </div>
+
+        <!-- Results -->
+        <div id="results-section" class="mt-4 d-none">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Results</h5>
+                </div>
+                <div class="card-body">
+                    <div id="sequence-info" class="mb-3"></div>
+                    <div id="predictions-table"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Error -->
+        <div id="error-section" class="mt-3 d-none">
+            <div class="alert alert-danger">
+                <strong>Error:</strong> <span id="error-message"></span>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
